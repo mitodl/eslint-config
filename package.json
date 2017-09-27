@@ -13,7 +13,7 @@
   ],
   "author": "Alice Pote",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.2.0",
     "eslint-config-google": "^0.9.1",
