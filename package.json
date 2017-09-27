@@ -12,5 +12,14 @@
     "mit"
   ],
   "author": "Alice Pote",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.2.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-react": "^7.1.0"
+  }
 }
