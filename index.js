@@ -66,6 +66,7 @@ module.exports = {
     "mocha/no-top-level-hooks": [2],
     "mocha/no-identical-title": [2],
     "mocha/no-nested-tests": [2],
+    "no-throw-literal": [2],
   },
   "env": {
     "es6": true,
