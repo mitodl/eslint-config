@@ -67,6 +67,16 @@ module.exports = {
     "mocha/no-identical-title": [2],
     "mocha/no-nested-tests": [2],
     "no-throw-literal": [2],
+    "arrow-parens": [2, "as-needed"],
+    "valid-jsdoc": 0,
+    "require-jsdoc": 0,
+    "spaced-comment": 0,
+    "no-invalid-this": 0,
+    "one-var": [2, {
+      "uninitialized": "always"
+    }],
+    "no-multi-spaces": 0,
+    "prefer-promise-reject-errors": 0,
   },
   "env": {
     "es6": true,
