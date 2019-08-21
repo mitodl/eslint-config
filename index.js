@@ -77,6 +77,7 @@ module.exports = {
     }],
     "no-multi-spaces": 0,
     "prefer-promise-reject-errors": 0,
+    "quote-props": [2, "as-needed"]
   },
   "env": {
     "es6": true,
