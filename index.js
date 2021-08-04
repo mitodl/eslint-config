@@ -51,14 +51,6 @@ module.exports = {
     "space-infix-ops": [2],
     "space-before-blocks": [2],
     "space-in-parens": [2],
-    "flow-vars/define-flow-type": [2],
-    "flow-vars/use-flow-type": [2],
-    "flowtype/space-after-type-colon": [0],
-    "flowtype/space-before-type-colon": [2, "never"],
-    "flowtype/generic-spacing": [2, "never"],
-    "flowtype/no-dupe-keys": [2],
-    "flowtype/no-primitive-constructor-types": [2],
-    "flowtype/object-type-delimiter": [2, "comma"],
     "mocha/no-exclusive-tests": [2],
     "mocha/no-skipped-tests": [2],
     "mocha/no-sibling-hooks": [2],
@@ -97,8 +89,6 @@ module.exports = {
   "plugins": [
     "babel",
     "react",
-    "flowtype",
-    "flow-vars",
     "mocha",
     "react-hooks"
   ]
