@@ -14,11 +14,8 @@
   "author": "Alice Pote",
   "license": "ISC",
   "peerDependencies": {
-    "babel-eslint": "10.x",
-    "eslint": "6.x",
+    "eslint": "7.x",
     "eslint-config-google": "0.x",
-    "eslint-plugin-babel": "5.x",
-    "eslint-plugin-flowtype": "4.x",
     "eslint-plugin-mocha": "6.x",
     "eslint-plugin-react": "7.x",
     "prettier-eslint-cli": "5.x",

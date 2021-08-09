@@ -87,7 +87,6 @@ module.exports = {
     },
   },
   "plugins": [
-    "babel",
     "react",
     "mocha",
     "react-hooks"
