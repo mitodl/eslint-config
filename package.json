@@ -10,9 +10,18 @@
   ],
   "author": "Alice Pote",
   "license": "ISC",
+  "dependencies": {
+    "eslint-config-google": "0.x"
+  },
+  "devDependencies": {
+    "eslint": "7.x",
+    "eslint-plugin-mocha": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "4.x",
+    "prettier-eslint-cli": "^7.1.0"
+  },
   "peerDependencies": {
     "eslint": "7.x",
-    "eslint-config-google": "0.x",
     "eslint-plugin-mocha": "6.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "4.x",
