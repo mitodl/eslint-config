@@ -68,9 +68,6 @@ module.exports = {
     "react/jsx-no-undef": ["error"], // disallow undeclared variables in JSX
     "react/prop-types": ["off"],
     "react/display-name" : ["off"],
-    "react/no-find-dom-node": ["off"],
     "react/no-unescaped-entities": ["off"],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
   },
 }
