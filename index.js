@@ -51,14 +51,6 @@ module.exports = {
     "space-infix-ops": [2],
     "space-before-blocks": [2],
     "space-in-parens": [2],
-    "mocha/no-exclusive-tests": [2],
-    "mocha/no-skipped-tests": [2],
-    "mocha/no-sibling-hooks": [2],
-    "mocha/no-global-tests": [2],
-    "mocha/handle-done-callback": [2],
-    "mocha/no-top-level-hooks": [2],
-    "mocha/no-identical-title": [2],
-    "mocha/no-nested-tests": [2],
     "no-throw-literal": [2],
     "arrow-parens": [2, "as-needed"],
     "valid-jsdoc": 0,
@@ -79,7 +71,6 @@ module.exports = {
     "es6": true,
     "browser": true,
     "node": true,
-    "mocha": true
   },
   "parserOptions": {
     "ecmaFeatures": {
@@ -88,7 +79,6 @@ module.exports = {
   },
   "plugins": [
     "react",
-    "mocha",
     "react-hooks"
   ]
 }
