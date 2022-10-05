@@ -11,6 +11,7 @@
   "author": "Alice Pote",
   "license": "ISC",
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint-config-google": "0.x"
   },
   "devDependencies": {
