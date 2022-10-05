@@ -8,6 +8,10 @@
     "mitodl",
     "mit"
   ],
+  "scripts": {
+    "print": "eslint --print-config ./tests/index.test.js",
+    "test": "eslint --report-unused-disable-directives ./tests"
+  },
   "author": "Alice Pote",
   "license": "ISC",
   "dependencies": {

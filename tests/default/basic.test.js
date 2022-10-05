@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-const x = 5
+// eslint-disable-next-line prefer-const
+export let x = 1
 
-console.log(x)
+
