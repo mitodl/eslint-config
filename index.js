@@ -1,10 +1,21 @@
 module.exports = {
-  "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+  },
   "extends": [
       "google",
       "eslint:recommended",
       "plugin:react/recommended",
-      "plugin:react-hooks/recommended"
+      "plugin:react-hooks/recommended",
+      "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
     "key-spacing": ["error", {
@@ -62,18 +73,4 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
-  "env": {
-    "es6": true,
-    "browser": true,
-    "node": true,
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-  },
-  "plugins": [
-    "react",
-    "react-hooks"
-  ]
 }
