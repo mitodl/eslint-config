@@ -7,7 +7,6 @@ module.exports = {
       "plugin:react-hooks/recommended"
   ],
   "rules": {
-    "prefer-const": [2],
     "key-spacing": [2, {
       "beforeColon": false,
       "afterColon": true,
@@ -18,15 +17,12 @@ module.exports = {
         "on": "value"
       }
     }],
-    "quotes": [0], // no opinion on ' vs "
-    "object-curly-spacing": [0],
-    "new-cap": [0], // allows function calls like Immutable.Map(...)
-    "max-len": [0, {
-        "code": 80,
-        "ignoreComments": true,
-    }],
-    "indent": [2, 2], // no tabs, indent is 2 spaces
-    "newline-after-var": [0],
+    "quotes": ["off"], // no opinion on ' vs ", let Prettier decide
+    "object-curly-spacing": ["off"], // no opinion, let Prettier decide
+    "new-cap": ["off"], // allows function calls like Immutable.Map(...)
+    "max-len": ["off"], // no opinion, let Prettier decide
+    "indent": ["error", 2],
+    "newline-after-var": ["off"],
     "react/jsx-indent-props": [2, 2], // no tabs, indent is two spaces
     "react/jsx-key": [2], // validate that key prop exists
     "react/jsx-no-undef": [2], // disallow undeclared variables in JSX

@@ -16,13 +16,6 @@
     "react"
   ],
   "rules": {
-    "prefer-const": [
-      2,
-      {
-        "destructuring": "all",
-        "ignoreReadBeforeAssign": false
-      }
-    ],
     "key-spacing": [
       2,
       {
@@ -37,31 +30,33 @@
       }
     ],
     "quotes": [
-      0,
+      "off",
       "single",
       {
         "allowTemplateLiterals": true
       }
     ],
     "object-curly-spacing": [
-      0
+      "off"
     ],
     "new-cap": [
-      0
+      "off"
     ],
     "max-len": [
-      0,
+      "off",
       {
         "code": 80,
-        "ignoreComments": true
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignorePattern": "goog.(module|require)"
       }
     ],
     "indent": [
-      2,
+      "error",
       2
     ],
     "newline-after-var": [
-      0
+      "off"
     ],
     "react/jsx-indent-props": [
       2,
@@ -507,6 +502,13 @@
     "generator-star-spacing": [
       2,
       "after"
+    ],
+    "prefer-const": [
+      2,
+      {
+        "destructuring": "all",
+        "ignoreReadBeforeAssign": false
+      }
     ],
     "prefer-rest-params": [
       2
