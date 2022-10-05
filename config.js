@@ -5,13 +5,15 @@
     "node": true
   },
   "globals": {},
-  "parser": "/Users/cchudzicki/dev/eslint-config/node_modules/babel-eslint/lib/index.js",
+  "parser": "/Users/cchudzicki/dev/eslint-config/node_modules/@typescript-eslint/parser/dist/index.js",
   "parserOptions": {
+    "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
     }
   },
   "plugins": [
+    "@typescript-eslint",
     "react-hooks",
     "react"
   ],
@@ -177,11 +179,86 @@
     "react/display-name": [
       "off"
     ],
-    "react/no-find-dom-node": [
-      "off"
-    ],
     "react/no-unescaped-entities": [
       "off"
+    ],
+    "@typescript-eslint/adjacent-overload-signatures": [
+      "error"
+    ],
+    "@typescript-eslint/ban-ts-comment": [
+      "error"
+    ],
+    "@typescript-eslint/ban-types": [
+      "error"
+    ],
+    "no-array-constructor": [
+      "off"
+    ],
+    "@typescript-eslint/no-array-constructor": [
+      "error"
+    ],
+    "no-empty-function": [
+      "off"
+    ],
+    "@typescript-eslint/no-empty-function": [
+      "error"
+    ],
+    "@typescript-eslint/no-empty-interface": [
+      "error"
+    ],
+    "@typescript-eslint/no-explicit-any": [
+      "warn"
+    ],
+    "@typescript-eslint/no-extra-non-null-assertion": [
+      "error"
+    ],
+    "no-extra-semi": [
+      "off"
+    ],
+    "@typescript-eslint/no-extra-semi": [
+      "error"
+    ],
+    "@typescript-eslint/no-inferrable-types": [
+      "error"
+    ],
+    "no-loss-of-precision": [
+      "off"
+    ],
+    "@typescript-eslint/no-loss-of-precision": [
+      "error"
+    ],
+    "@typescript-eslint/no-misused-new": [
+      "error"
+    ],
+    "@typescript-eslint/no-namespace": [
+      "error"
+    ],
+    "@typescript-eslint/no-non-null-asserted-optional-chain": [
+      "error"
+    ],
+    "@typescript-eslint/no-non-null-assertion": [
+      "warn"
+    ],
+    "@typescript-eslint/no-this-alias": [
+      "error"
+    ],
+    "@typescript-eslint/no-unnecessary-type-constraint": [
+      "error"
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn"
+    ],
+    "@typescript-eslint/no-var-requires": [
+      "error"
+    ],
+    "@typescript-eslint/prefer-as-const": [
+      "error"
+    ],
+    "@typescript-eslint/prefer-namespace-keyword": [
+      "error"
+    ],
+    "@typescript-eslint/triple-slash-reference": [
+      "error"
     ],
     "react-hooks/rules-of-hooks": [
       "error"
@@ -214,6 +291,9 @@
       2
     ],
     "react/no-direct-mutation-state": [
+      2
+    ],
+    "react/no-find-dom-node": [
       2
     ],
     "react/no-is-mounted": [
@@ -304,9 +384,6 @@
       "error"
     ],
     "no-extra-boolean-cast": [
-      "error"
-    ],
-    "no-extra-semi": [
       "error"
     ],
     "no-fallthrough": [
@@ -457,9 +534,6 @@
       2
     ],
     "linebreak-style": [
-      2
-    ],
-    "no-array-constructor": [
       2
     ],
     "no-multiple-empty-lines": [

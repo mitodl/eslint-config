@@ -479,7 +479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.39.0":
+"@typescript-eslint/utils@npm:5.39.0, @typescript-eslint/utils@npm:^5.10.0":
   version: 5.39.0
   resolution: "@typescript-eslint/utils@npm:5.39.0"
   dependencies:
@@ -1056,6 +1056,7 @@ __metadata:
     babel-eslint: ^10.1.0
     eslint: ^7.32.0
     eslint-config-google: ^0.14.0
+    eslint-plugin-jest: ^27.1.1
     eslint-plugin-mocha: 6.x
     eslint-plugin-react: ^7.31.8
     eslint-plugin-react-hooks: ^4.6
@@ -1069,6 +1070,23 @@ __metadata:
     prettier-eslint-cli: ^7.1.0
   languageName: unknown
   linkType: soft
+
+"eslint-plugin-jest@npm:^27.1.1":
+  version: 27.1.1
+  resolution: "eslint-plugin-jest@npm:27.1.1"
+  dependencies:
+    "@typescript-eslint/utils": ^5.10.0
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ^5.0.0
+    eslint: ^7.0.0 || ^8.0.0
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+    jest:
+      optional: true
+  checksum: 215a60d0c9ca641f3c1c7c5e4ff78093ad80c5f0ee22f44c50b9c8625ec0624ec4f47bf281684157f6231a4c480a4ca40bafad4ac6438a2105bb8527920e341f
+  languageName: node
+  linkType: hard
 
 "eslint-plugin-mocha@npm:6.x":
   version: 6.3.0
