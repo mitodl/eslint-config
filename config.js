@@ -17,7 +17,7 @@
   ],
   "rules": {
     "key-spacing": [
-      2,
+      "error",
       {
         "beforeColon": false,
         "afterColon": true,
@@ -58,51 +58,29 @@
     "newline-after-var": [
       "off"
     ],
-    "react/jsx-indent-props": [
-      2,
-      2
-    ],
-    "react/jsx-key": [
-      2
-    ],
-    "react/jsx-no-undef": [
-      2
-    ],
-    "react/prop-types": [
-      0
-    ],
-    "react/display-name": [
-      0
-    ],
-    "react/no-find-dom-node": [
-      0
-    ],
-    "react/no-unescaped-entities": [
-      0
-    ],
     "no-unused-vars": [
-      2,
+      "error",
       {
         "vars": "local",
         "argsIgnorePattern": "action"
       }
     ],
     "comma-dangle": [
-      0,
+      "off",
       "always-multiline"
     ],
     "semi": [
-      2,
+      "error",
       "never"
     ],
     "eqeqeq": [
-      2
+      "error"
     ],
     "no-var": [
-      2
+      "error"
     ],
     "camelcase": [
-      2,
+      "error",
       {
         "properties": "never",
         "ignoreDestructuring": false,
@@ -111,29 +89,29 @@
       }
     ],
     "guard-for-in": [
-      2
+      "error"
     ],
     "prefer-template": [
-      2
+      "error"
     ],
     "space-infix-ops": [
-      2
+      "error"
     ],
     "space-before-blocks": [
-      2
+      "error"
     ],
     "space-in-parens": [
-      2
+      "error"
     ],
     "no-throw-literal": [
-      2
+      "error"
     ],
     "arrow-parens": [
-      2,
+      "error",
       "as-needed"
     ],
     "valid-jsdoc": [
-      0,
+      "off",
       {
         "requireParamDescription": false,
         "requireReturnDescription": false,
@@ -146,7 +124,7 @@
       }
     ],
     "require-jsdoc": [
-      0,
+      "off",
       {
         "require": {
           "FunctionDeclaration": true,
@@ -158,30 +136,52 @@
       }
     ],
     "spaced-comment": [
-      0,
+      "off",
       "always"
     ],
     "no-invalid-this": [
-      0
+      "off"
     ],
     "one-var": [
-      2,
+      "error",
       {
         "uninitialized": "always"
       }
     ],
     "no-multi-spaces": [
-      0
+      "off"
     ],
     "prefer-promise-reject-errors": [
-      0
+      "off"
     ],
     "quote-props": [
-      2,
+      "error",
       "as-needed"
     ],
     "no-prototype-builtins": [
-      0
+      "off"
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      2
+    ],
+    "react/jsx-key": [
+      "error"
+    ],
+    "react/jsx-no-undef": [
+      "error"
+    ],
+    "react/prop-types": [
+      "off"
+    ],
+    "react/display-name": [
+      "off"
+    ],
+    "react/no-find-dom-node": [
+      "off"
+    ],
+    "react/no-unescaped-entities": [
+      "off"
     ],
     "react-hooks/rules-of-hooks": [
       "error"

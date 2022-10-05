@@ -7,7 +7,7 @@ module.exports = {
       "plugin:react-hooks/recommended"
   ],
   "rules": {
-    "key-spacing": [2, {
+    "key-spacing": ["error", {
       "beforeColon": false,
       "afterColon": true,
       "align": {
@@ -23,42 +23,42 @@ module.exports = {
     "max-len": ["off"], // no opinion, let Prettier decide
     "indent": ["error", 2],
     "newline-after-var": ["off"],
-    "react/jsx-indent-props": [2, 2], // no tabs, indent is two spaces
-    "react/jsx-key": [2], // validate that key prop exists
-    "react/jsx-no-undef": [2], // disallow undeclared variables in JSX
-    "react/prop-types": [0],
-    "react/display-name" : [0],
-    "react/no-find-dom-node": [0],
-    "react/no-unescaped-entities": [0],
-    "no-unused-vars": [ 2, {
+    "no-unused-vars": [ "error", {
       "vars": "local",
       "argsIgnorePattern": "action"
     }],
-    "comma-dangle": [0],
-    "semi": [2, "never"],
-    "eqeqeq": [2],
-    "no-var": [2],
-    "camelcase": [2, {
+    "comma-dangle": ["off"],
+    "semi": ["error", "never"],
+    "eqeqeq": ["error"],
+    "no-var": ["error"],
+    "camelcase": ["error", {
       "properties": "never"
     }],
-    "guard-for-in": [2],
-    "prefer-template": [2],
-    "space-infix-ops": [2],
-    "space-before-blocks": [2],
-    "space-in-parens": [2],
-    "no-throw-literal": [2],
-    "arrow-parens": [2, "as-needed"],
-    "valid-jsdoc": 0,
-    "require-jsdoc": 0,
-    "spaced-comment": 0,
-    "no-invalid-this": 0,
-    "one-var": [2, {
+    "guard-for-in": ["error"],
+    "prefer-template": ["error"],
+    "space-infix-ops": ["error"],
+    "space-before-blocks": ["error"],
+    "space-in-parens": ["error"],
+    "no-throw-literal": ["error"],
+    "arrow-parens": ["error", "as-needed"],
+    "valid-jsdoc": ["off"],
+    "require-jsdoc": ["off"],
+    "spaced-comment": ["off"],
+    "no-invalid-this": ["off"],
+    "one-var": ["error", {
       "uninitialized": "always"
     }],
-    "no-multi-spaces": 0,
-    "prefer-promise-reject-errors": 0,
-    "quote-props": [2, "as-needed"],
-    "no-prototype-builtins": [0],
+    "no-multi-spaces": ["off"],
+    "prefer-promise-reject-errors": ["off"],
+    "quote-props": ["error", "as-needed"],
+    "no-prototype-builtins": ["off"],
+    "react/jsx-indent-props": ["error", 2], // no tabs, indent is two spaces
+    "react/jsx-key": ["error"], // validate that key prop exists
+    "react/jsx-no-undef": ["error"], // disallow undeclared variables in JSX
+    "react/prop-types": ["off"],
+    "react/display-name" : ["off"],
+    "react/no-find-dom-node": ["off"],
+    "react/no-unescaped-entities": ["off"],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
