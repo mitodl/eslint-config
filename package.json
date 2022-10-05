@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint-config-google": "0.x"
+    "eslint-config-google": "^0.14.0"
   },
   "devDependencies": {
     "eslint": "7.x",

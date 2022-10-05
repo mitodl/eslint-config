@@ -983,7 +983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-google@npm:0.x":
+"eslint-config-google@npm:^0.14.0":
   version: 0.14.0
   resolution: "eslint-config-google@npm:0.14.0"
   peerDependencies:
@@ -998,7 +998,7 @@ __metadata:
   dependencies:
     babel-eslint: ^10.1.0
     eslint: 7.x
-    eslint-config-google: 0.x
+    eslint-config-google: ^0.14.0
     eslint-plugin-mocha: 6.x
     eslint-plugin-react: 7.x
     eslint-plugin-react-hooks: 4.x
