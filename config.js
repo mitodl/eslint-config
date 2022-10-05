@@ -91,9 +91,6 @@
       0,
       "always-multiline"
     ],
-    "no-unreachable": [
-      2
-    ],
     "semi": [
       2,
       "never"
@@ -373,6 +370,9 @@
       "error"
     ],
     "no-unexpected-multiline": [
+      "error"
+    ],
+    "no-unreachable": [
       "error"
     ],
     "no-unsafe-finally": [

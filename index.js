@@ -35,7 +35,6 @@ module.exports = {
       "argsIgnorePattern": "action"
     }],
     "comma-dangle": [0],
-    "no-unreachable": [2],
     "semi": [2, "never"],
     "eqeqeq": [2],
     "no-var": [2],
