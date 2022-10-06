@@ -1,7 +1,4 @@
 module.exports = {
-  rules: {
-    quotes: [2, "double"]
-  },
   env: {
     mocha: true
   },

@@ -3,7 +3,6 @@ module.exports = {
   "plugins": [
     "react",
     "react-hooks",
-    "@typescript-eslint"
   ],
   "env": {
     "es6": true,
@@ -15,7 +14,6 @@ module.exports = {
       "eslint:recommended",
       "plugin:react/recommended",
       "plugin:react-hooks/recommended",
-      "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
     "key-spacing": ["error", {
@@ -70,4 +68,23 @@ module.exports = {
     "react/display-name" : ["off"],
     "react/no-unescaped-entities": ["off"],
   },
+  overrides: [
+    {
+      files:   ["*.ts", "*.tsx"],
+      plugins: ["@typescript-eslint"],
+      extends: ["plugin:@typescript-eslint/recommended"],
+      rules: {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            varsIgnorePattern: "^_",
+            argsIgnorePattern: "^_",
+            destructuredArrayIgnorePattern: "^_",
+            ignoreRestSiblings: true,
+          }
+        ],
+      }
+    }
+  ]
 }
