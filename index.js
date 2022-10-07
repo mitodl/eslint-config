@@ -92,7 +92,7 @@ module.exports = {
       },
       overrides: [
         {
-          files:   ["*.test.ts", "*.test.tsx"],
+          files:   ["*.test.ts?(x)", "*.spec.ts?(x)"],
           rules: {
             "@typescript-eslint/no-non-null-assertion": "off",
           }
