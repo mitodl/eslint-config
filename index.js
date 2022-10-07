@@ -4,6 +4,11 @@ module.exports = {
     "react",
     "react-hooks",
   ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   "env": {
     "es6": true,
     "browser": true,
@@ -84,7 +89,15 @@ module.exports = {
             ignoreRestSiblings: true,
           }
         ],
-      }
-    }
+      },
+      overrides: [
+        {
+          files:   ["*.test.ts", "*.test.tsx"],
+          rules: {
+            "@typescript-eslint/no-non-null-assertion": "off",
+          }
+        }
+      ]
+    },
   ]
 }
