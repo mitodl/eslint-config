@@ -1,3 +1,9 @@
 module.exports = {
-  extends: ['../index']
+  extends:   ["../index"],
+  overrides: [
+    {
+      files:   ["./jest/*"],
+      extends: ["../jest"]
+    }
+  ]
 }

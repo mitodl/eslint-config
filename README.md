@@ -18,6 +18,9 @@ This package has several peer dependencies (eslint plugins for react and
 flow, prettier, etc) so make sure you satisfy those! Once you do you
 should be in linting heaven.
 
+## Local development
+Run tests with `yarn run test`. The tests are very basic, just checking that some simple eslint errors are raised where expected.
+
 ## JavaScript style
 
 This is an opinionated setup. It enforces a number of things which
