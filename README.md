@@ -2,21 +2,44 @@
 
 This is our preferred configuration for `eslint`. To use it:
 
-```
+```sh
 yarn add eslint-config-mitodl
 ```
-
+There are four configs included. They are:
+```
+eslint-config-mitodl      // base config with support for Typescript and JS
+eslint-config-mitodl/jest
+eslint-config-mitodl/mocha
+eslint-config-mitodl/flow
+``` 
 and then change your `.eslintrc` to have:
 
-```
+```json
 {
-  "extends": "eslint-config-mitodl"
+  "extends": [
+    "eslint-config-mitodl",
+    "eslint-config-mitodl/jest"
+  ]
+}
+```
+Or, to support FlowType and Mocha in older projects:
+
+```json
+{
+  "extends": [
+    "eslint-config-mitodl",
+    "eslint-config-mitodl/flow",
+    "eslint-config-mitodl/mocha"
+  ]
 }
 ```
 
 This package has several peer dependencies (eslint plugins for react and
 flow, prettier, etc) so make sure you satisfy those! Once you do you
 should be in linting heaven.
+
+## Local development
+Run tests with `yarn run test`. The tests are very basic, just checking that some simple eslint errors are raised where expected.
 
 ## JavaScript style
 
