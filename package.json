@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mitodl",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "JavaScript style rules for MITODL",
   "main": "index.js",
   "keywords": [
