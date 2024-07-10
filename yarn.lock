@@ -2190,7 +2190,7 @@ __metadata:
     "@typescript-eslint/parser": ^7.0.1
     eslint: ^8.56.0
     eslint-config-google: ^0.14.0
-    eslint-plugin-flowtype: 4.x
+    eslint-plugin-flowtype: 8.x
     eslint-plugin-jest: ^27.9.0
     eslint-plugin-mocha: 6.x
     eslint-plugin-react: ^7.31.8
@@ -2209,14 +2209,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"eslint-plugin-flowtype@npm:4.x":
-  version: 4.7.0
-  resolution: "eslint-plugin-flowtype@npm:4.7.0"
+"eslint-plugin-flowtype@npm:8.x":
+  version: 8.0.3
+  resolution: "eslint-plugin-flowtype@npm:8.0.3"
   dependencies:
-    lodash: ^4.17.15
+    lodash: ^4.17.21
+    string-natural-compare: ^3.0.1
   peerDependencies:
-    eslint: ">=6.1.0"
-  checksum: 5ac601bae7f104bbc4c013ac3a41b4b61850e8ab6dcda48ecbf44cd30ba192bd0b1c11c9af32dc20e9a1ce33b53cc36a05b84f961d62f563733fef0835bb98a6
+    "@babel/plugin-syntax-flow": ^7.14.5
+    "@babel/plugin-transform-react-jsx": ^7.14.9
+    eslint: ^8.1.0
+  checksum: 30e63c5357b0b5571f39afed51e59c140084f4aa53c106b1fd04f26da42b268908466daa6020b92943e71409bdaee1c67202515ed9012404d027cc92cb03cefa
   languageName: node
   linkType: hard
 
@@ -4010,7 +4013,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15":
+"lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -5047,6 +5050,13 @@ __metadata:
     char-regex: ^1.0.2
     strip-ansi: ^6.0.0
   checksum: ce85533ef5113fcb7e522bcf9e62cb33871aa99b3729cec5595f4447f660b0cefd542ca6df4150c97a677d58b0cb727a3fe09ac1de94071d05526c73579bf505
+  languageName: node
+  linkType: hard
+
+"string-natural-compare@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "string-natural-compare@npm:3.0.1"
+  checksum: 65910d9995074086e769a68728395effbba9b7186be5b4c16a7fad4f4ef50cae95ca16e3e9086e019cbb636ae8daac9c7b8fe91b5f21865c5c0f26e3c0725406
   languageName: node
   linkType: hard
 
