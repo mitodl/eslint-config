@@ -2131,7 +2131,7 @@ __metadata:
     eslint-plugin-react: ^7.31.8
     eslint-plugin-react-hooks: ^4.6
     jest: ^29.2.1
-    typescript: ^5.3.3 <5.6.0
+    typescript: <5.10.0
   peerDependencies:
     eslint-plugin-flowtype: ^8.0.3
     eslint-plugin-mocha: 10.x
@@ -5384,23 +5384,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.3.3 <5.6.0":
-  version: 5.5.4
-  resolution: "typescript@npm:5.5.4"
+"typescript@npm:<5.10.0":
+  version: 5.9.2
+  resolution: "typescript@npm:5.9.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: b309040f3a1cd91c68a5a58af6b9fdd4e849b8c42d837b2c2e73f9a4f96a98c4f1ed398a9aab576ee0a4748f5690cf594e6b99dbe61de7839da748c41e6d6ca8
+  checksum: f619cf6773cfe31409279711afd68cdf0859780006c50bc2a7a0c3227f85dea89a3b97248846326f3a17dad72ea90ec27cf61a8387772c680b2252fd02d8497b
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.3.3 <5.6.0#~builtin<compat/typescript>":
-  version: 5.5.4
-  resolution: "typescript@patch:typescript@npm%3A5.5.4#~builtin<compat/typescript>::version=5.5.4&hash=379a07"
+"typescript@patch:typescript@<5.10.0#~builtin<compat/typescript>":
+  version: 5.9.2
+  resolution: "typescript@patch:typescript@npm%3A5.9.2#~builtin<compat/typescript>::version=5.9.2&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: e14c87e8bd51f9ac741051a2c3bde75b2a3ab17dee2c50239f7e1a0868673f3b7d4d87684df41a59a8f57c6ddc5d06d65d120764d992441af5de07b98cf9c67b
+  checksum: f2327af06fce458b53e02df26b880528636c333bce22e557ff6723cdd0576a2cec75daed37eeb8d330b94fef22be4f19b06d8922793ada5d322b8197efd9391e
   languageName: node
   linkType: hard
 
